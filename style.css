@@ -1,0 +1,169 @@
+*{
+    padding: 0;
+    margin: 0 ;
+    box-sizing: border-box;
+    
+
+}
+body{
+    background-color: rgb(238, 245, 250);
+}
+
+header {
+    display: flex;
+    align-items: center;
+    
+    
+    
+}
+.logo{
+    display:block;
+    height: 9.4em;
+    
+    
+
+    
+}
+ul{
+    position: relative;
+    display: inline-flex;
+    justify-content: space-around;
+    align-items : center;
+    list-style: none;
+    left: 2em;
+    width: 73em;
+    gap: 15px;
+    
+    
+    
+}
+ul li a{
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    font-size: 22px;
+    transition: 1s;
+
+}
+ul li a:hover{
+    color:rgb(127, 214, 255) ;
+
+}
+.active{
+    border-bottom: 1px solid rgb(127, 214, 255) ;
+}
+#logoTipo{
+    width:150px;
+}
+
+
+
+.container-main{
+    display: flex;
+    margin-top: 1em;
+    
+}
+#section-cards{
+    display: flex;
+    padding: 1em;
+    width: 70%;
+    justify-content: space-around;
+    
+}
+
+#container-planos{
+    display: flex;
+    gap: 5em;
+    
+}
+.cards{
+    border: 1px solid rgb(187, 185, 185);
+    border-radius: 10px;
+    width: 15em;
+    text-align: center;
+    max-height:max-content;
+    padding-bottom: 5px;
+
+
+    
+}
+.cards h2{
+    background-color: rgb(127, 214, 255);
+    border-radius: 9px 9px 0 0;
+    padding: 10px 0;
+    margin: 0 0 5px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: lighter;
+    
+}
+.cards h4{
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 1em;
+}
+.description-plano{
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 1.3em;
+    max-height: 200px;
+    overflow-y: scroll;
+    padding: 0 2px;
+    
+}
+.price{
+    margin-top: 1em;
+    font-size: 32px;
+    font-family: 'Roboto', sans-serif;
+    padding: 5px 0;
+    
+}
+
+.btn-comprar{
+    border-bottom: none;
+    border: none;
+    background-color: rgb(121, 224, 121);
+    padding: 10px 20px;
+    width: 80%;
+    color: aliceblue;
+    border-radius: 8px;
+    cursor: pointer;
+    
+}
+
+aside{
+
+    border: 1px solid rgb(187, 185, 185);
+    border-radius: 10px;
+    padding: 5px;
+    overflow-y: scroll;
+    height: 427px;
+    margin-top: 1em;
+    width: 380px;
+}
+aside h1{
+    text-align: center;
+    margin: 5px;
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+aside::-webkit-scrollbar{
+    background-color:transparent;
+    width: 2px;
+    height: 50px;
+    border-radius: 10px;
+}
+aside::-webkit-scrollbar-thumb{
+    background-color:rgb(127, 214, 255);
+    border-radius: 15px;
+    
+}
+.description-plano::-webkit-scrollbar{
+    background-color:transparent;
+    width: 2px;
+    height: 50px;
+    border-radius: 10px;
+}
+.description-plano::-webkit-scrollbar-thumb{
+    background-color:rgb(127, 214, 255);
+    border-radius: 15px;
+    
+}

@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <title>ConectMais</title>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img id="logoTipo" src="/img/OIG-removebg-preview.png" alt="logoConectMais">
+        </div>
+        <nav>
+            
+                <ul>
+                    <li><a class="active" href="#">Home</a></li>
+                    <li><a href="{{ route('login') }}">Login</a></li>
+                    <li><a href="#">Planos</a></li>
+                    <li><a href="#">Contato</a></li>
+                    <li><a href="#">Sobre nós</a></li>
+                </ul>
+            
+        </nav>
+    </header>
+    <hr>
+    <div class="container-main">
+        <section id="section-cards">
+            <div id="container-planos">
+                <div class="cards card1">
+                    <h2>Básico</h2>
+                    <p class="price">R$ 39,90 </p>
+                    <h4>Fibra Optica</h2>
+                    <p class="description-plano">Oferece uma conexão de banda larga com velocidades moderadas, adequadas para 
+                        atividades cotidianas como navegação na web, verificação de e-mails e streaming de 
+                        vídeo em resolução padrão. Esses planos podem ter uma quantidade 
+                        limitada de dados ou oferecer acesso ilimitado, dependendo do provedor.</p>
+                    <button class="btn-comprar" type="submit">Comprar agora!</button>
+                </div>
+                <div class="cards card2">
+                    <h2>Intermadiário</h2>
+                    <p class="price">R$ 59,90 </p>
+                    <h4>Fibra Optica</h2>
+                        <p class="description-plano">Esse oferece uma quantidade de dados mais generosa em comparação com os 
+                            planos básicos, permitindo maior flexibilidade para usuários que consomem
+                             uma quantidade significativa de dados mensalmente. Os planos intermediários
+                              são adequados para lares com vários dispositivos conectados simultaneamente 
+                              e para usuários que desejam uma experiência online mais rápida e eficiente.</p>
+                    <button class="btn-comprar" type="submit">Comprar agora!</button>
+            </div>
+            <div class="cards card3">
+                <h2>Pro</h2>
+                <p class="price">R$ 89,90 </p>
+                <h4>Fibra Optica</h2>
+                <p class="description-plano">Projetado para atender às necessidades de empresas e profissionais que exigem alta 
+                    confiabilidade, velocidades muito rápidas, baixa latência e uma série de recursos 
+                    adicionais. Aqui estão algumas características que podem ser encontradas em um plano 
+                    de internet profissional.Conexões de alta velocidade, tanto para download quanto para upload, 
+                    para garantir a transferência rápida de dados.SLAs (Service Level Agreements) que garantem alta 
+                    disponibilidade</p>
+                <button class="btn-comprar" type="submit">Comprar agora!</button>
+        </div>
+        </section>
+        <aside>
+            <h1>Beneficios da fibra optica</h1> <br>
+            <ol>
+                <b>Alta largura de banda:</b> <br>
+                A fibra óptica tem uma capacidade de transmissão de dados muito maior em 
+                comparação com outros meios de comunicação, como o cobre. Isso significa que pode 
+                suportar taxas de transferência de dados extremamente altas,
+                 permitindo a transmissão rápida de grandes volumes de informações.
+            </ol>
+            <br>
+            <ol>
+                <b>Menor atenuação:</b> <br> A atenuação refere-se à perda de sinal ao longo da distância. 
+                A fibra óptica apresenta uma atenuação significativamente menor em comparação com os 
+                cabos de cobre, o que permite a transmissão 
+                de dados a distâncias mais longas sem perda de qualidade do sinal. 
+            </ol>
+            <br>
+            <ol>
+                <b>Imunidade a interferências eletromagnéticas:</b> <br> Ao contrário dos cabos de cobre, 
+                a fibra óptica não é suscetível a interferências eletromagnéticas. Isso significa 
+                que a transmissão de dados por fibra óptica é mais segura e estável em ambientes onde 
+                há muita interferência 
+                elétrica, como fábricas ou áreas urbanas densamente povoadas.
+            </ol>
+            <br>
+            <ol>
+               <b> Menor latência:</b> <br>A fibra óptica oferece menor latência, ou seja, há 
+                um atraso mínimo na transmissão de dados. Isso é crucial em aplicações 
+                que exigem comunicação em tempo real, 
+                como videoconferências, jogos online e transmissões ao vivo.
+            </ol>
+            <br>
+            <ol>
+                <b>Maior segurança:</b> <br>A transmissão de dados por fibra óptica é mais segura
+                 do que outras formas de comunicação, como o cobre. Como os sinais são 
+                 transmitidos como pulsos de luz através de fibras de vidro, é muito mais 
+                 difícil interceptar ou <em>"grampear"</em> a comunicação. Isso torna a fibra óptica 
+                 uma escolha preferida para 
+                redes que exigem alta segurança, como redes corporativas e de governo.
+            </ol>
+        </aside>
+
+    </div>
+
+    <footer>
+
+    </footer>
+    
+</body>
+</html>
